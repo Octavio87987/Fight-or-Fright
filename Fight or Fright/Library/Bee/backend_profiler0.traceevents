@@ -1,0 +1,616 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1690062188667802, "dur":1214, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690062188669025, "dur":251, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1690062188669307, "dur":17, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1690062188669325, "dur":423, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1690062188669767, "dur":498, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690062188670265, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690062188914527, "dur":278, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690062188914805, "dur":13, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690062188914818, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690062188914820, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690062188914828, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690062188914830, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690062188914837, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690062188914839, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690062188914847, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690062188914849, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690062188914857, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690062188914859, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690062188914865, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690062188914868, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690062188914876, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690062188914878, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690062188914884, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690062188914886, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690062188914893, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690062188914895, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690062188914902, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690062188914904, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690062188914911, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690062188914913, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690062188914921, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690062188914946, "dur":3, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690062188914953, "dur":1339, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1690062188670506, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690062188670506, "dur":3253, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690062188673760, "dur":562, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/01/Fight_or_fright_The-game_0.1/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1690062188674322, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690062188674350, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690062188696515, "dur":2482, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/01/Fight_or_fright_The-game_0.1/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1690062188699106, "dur":235, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690062188699342, "dur":191, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690062188699541, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690062188699555, "dur":2417, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690062188701993, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690062188702013, "dur":222, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690062188702241, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690062188702247, "dur":1652, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690062188703963, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690062188703985, "dur":43, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690062188704035, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690062188704044, "dur":5975, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690062188710048, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690062188710067, "dur":167, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690062188710240, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690062188710253, "dur":2303, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690062188712588, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690062188712611, "dur":28, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690062188712644, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690062188712656, "dur":1808, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690062188714501, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690062188714522, "dur":241, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690062188714769, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690062188714775, "dur":1566, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690062188716358, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690062188716378, "dur":45, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690062188716428, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690062188716433, "dur":1479, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690062188717923, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690062188717948, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690062188717970, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690062188717975, "dur":1449, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690062188719438, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690062188719455, "dur":18, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690062188719476, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690062188719480, "dur":3534, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690062188723032, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690062188723049, "dur":21, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690062188723074, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690062188723078, "dur":2825, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690062188725918, "dur":134538, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690062188860458, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690062188860560, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690062188860567, "dur":1457, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690062188862039, "dur":52489, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690062188670294, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690062188670294, "dur":3451, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690062188673755, "dur":371, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/01/Fight_or_fright_The-game_0.1/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1690062188674127, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690062188674185, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690062188676899, "dur":1058, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/01/Fight_or_fright_The-game_0.1/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1690062188678038, "dur":155, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/01/Fight_or_fright_The-game_0.1/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1690062188678193, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690062188678216, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690062188678222, "dur":1644, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/01/Fight_or_fright_The-game_0.1/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1690062188679931, "dur":127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/01/Fight_or_fright_The-game_0.1/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690062188680058, "dur":28, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690062188680090, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690062188680272, "dur":2277, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/01/Fight_or_fright_The-game_0.1/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690062188682590, "dur":468, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/01/Fight_or_fright_The-game_0.1/Fight or Fright.exe" }}
+,{ "pid":12345, "tid":2, "ts":1690062188683058, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690062188683094, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690062188683100, "dur":1357, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/01/Fight_or_fright_The-game_0.1/Fight or Fright.exe" }}
+,{ "pid":12345, "tid":2, "ts":1690062188684484, "dur":297, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":2, "ts":1690062188684783, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690062188684859, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690062188685209, "dur":10932, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":2, "ts":1690062188696337, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690062188696386, "dur":34, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690062188696427, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690062188696434, "dur":2861, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690062188699337, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690062188699360, "dur":150, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690062188699519, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690062188699524, "dur":2837, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690062188702383, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690062188702403, "dur":118, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690062188702525, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690062188702533, "dur":2392, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690062188704948, "dur":159601, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690062188864552, "dur":83, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690062188864644, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690062188864652, "dur":1102, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690062188865771, "dur":48742, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1690062188670331, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1690062188670332, "dur":3422, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1690062188673758, "dur":611, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/01/Fight_or_fright_The-game_0.1/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1690062188674370, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1690062188674443, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1690062188720992, "dur":2585, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/01/Fight_or_fright_The-game_0.1/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1690062188723698, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1690062188723742, "dur":140, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1690062188723891, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1690062188723902, "dur":2624, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1690062188726555, "dur":118221, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":3, "ts":1690062188844779, "dur":131, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1690062188844926, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1690062188844940, "dur":1653, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":3, "ts":1690062188846611, "dur":67897, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690062188670192, "dur":82, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690062188670275, "dur":3463, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690062188673750, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":4, "ts":1690062188673752, "dur":66, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690062188673823, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/app.info" }}
+,{ "pid":12345, "tid":4, "ts":1690062188673825, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690062188673938, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690062188675337, "dur":2089, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/app.info" }}
+,{ "pid":12345, "tid":4, "ts":1690062188677430, "dur":116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/01/Fight_or_fright_The-game_0.1/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1690062188677547, "dur":25, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690062188677597, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690062188678164, "dur":1564, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/01/Fight_or_fright_The-game_0.1/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1690062188679846, "dur":155, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/01/Fight_or_fright_The-game_0.1/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":4, "ts":1690062188680001, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690062188680035, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690062188680040, "dur":1775, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/01/Fight_or_fright_The-game_0.1/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":4, "ts":1690062188681961, "dur":182, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/01/Fight_or_fright_The-game_0.1/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690062188682144, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690062188682176, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690062188682193, "dur":13942, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/01/Fight_or_fright_The-game_0.1/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690062188696306, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690062188696408, "dur":32, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690062188696469, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690062188696475, "dur":2586, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690062188699096, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690062188699131, "dur":44, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690062188699180, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690062188699188, "dur":2156, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690062188701400, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690062188701430, "dur":37, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690062188701474, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690062188701485, "dur":2345, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690062188703862, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690062188703891, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690062188703959, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690062188703970, "dur":3846, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690062188707842, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690062188707869, "dur":42, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690062188707917, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690062188707929, "dur":2946, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690062188710905, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690062188710942, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690062188710976, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690062188710986, "dur":2589, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690062188713595, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690062188713610, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690062188713632, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690062188713636, "dur":1731, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690062188715389, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690062188715412, "dur":236, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690062188715657, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690062188715669, "dur":1918, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690062188717609, "dur":131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690062188717741, "dur":45, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690062188717791, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690062188717940, "dur":1599, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690062188719565, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690062188719594, "dur":354, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690062188719956, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690062188719966, "dur":3103, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690062188723096, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690062188723119, "dur":20, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690062188723143, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690062188723148, "dur":8692, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690062188731863, "dur":133214, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/Managed/Unity.AdaptivePerformance.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690062188865078, "dur":47, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690062188865132, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690062188865140, "dur":677, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/Managed/Unity.AdaptivePerformance.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690062188865826, "dur":48701, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690062188670238, "dur":38, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690062188670277, "dur":3474, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690062188673753, "dur":584, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/01/Fight_or_fright_The-game_0.1/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1690062188674338, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690062188674409, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690062188696829, "dur":1992, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/01/Fight_or_fright_The-game_0.1/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1690062188699048, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1690062188699096, "dur":28, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690062188699130, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690062188699139, "dur":2216, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1690062188701406, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1690062188701447, "dur":40, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690062188701492, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690062188701500, "dur":2407, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1690062188703927, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1690062188703951, "dur":20, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690062188703975, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690062188703980, "dur":3069, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1690062188707088, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1690062188707121, "dur":34, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690062188707163, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690062188707177, "dur":1516, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1690062188708723, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1690062188708745, "dur":25, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690062188708776, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690062188708786, "dur":2165, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1690062188710975, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1690062188710992, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690062188711022, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690062188711028, "dur":2476, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1690062188713553, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1690062188713573, "dur":21, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690062188713598, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690062188713604, "dur":2164, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1690062188715790, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1690062188715820, "dur":431, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690062188716260, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690062188716267, "dur":1981, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1690062188718266, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1690062188718291, "dur":268, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690062188718568, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690062188718606, "dur":2014, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1690062188720636, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1690062188720650, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690062188720722, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690062188720734, "dur":4331, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1690062188725088, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1690062188725116, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690062188725143, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690062188725148, "dur":1577, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1690062188726737, "dur":1819, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/Managed/Unity.Subsystem.Registration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1690062188728556, "dur":1431, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690062188729995, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690062188730007, "dur":6015, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/Managed/Unity.Subsystem.Registration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1690062188736043, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":5, "ts":1690062188736058, "dur":38, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690062188736100, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690062188736106, "dur":4928, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":5, "ts":1690062188741061, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":5, "ts":1690062188741080, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690062188741111, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690062188741120, "dur":1943, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":5, "ts":1690062188743089, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":5, "ts":1690062188743109, "dur":36, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690062188743150, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690062188743159, "dur":4430, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":5, "ts":1690062188747606, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":5, "ts":1690062188747621, "dur":283, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690062188747912, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690062188747922, "dur":6910, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":5, "ts":1690062188754856, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":5, "ts":1690062188754875, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690062188754907, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690062188754913, "dur":3313, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":5, "ts":1690062188758237, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":5, "ts":1690062188758267, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690062188758286, "dur":2209, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":5, "ts":1690062188760529, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":5, "ts":1690062188760559, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690062188760567, "dur":20515, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":5, "ts":1690062188781106, "dur":1832, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":5, "ts":1690062188782939, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690062188783022, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690062188783033, "dur":14486, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":5, "ts":1690062188797554, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1690062188797582, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690062188797594, "dur":1780, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1690062188799401, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/resources.assets" }}
+,{ "pid":12345, "tid":5, "ts":1690062188799427, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690062188799437, "dur":2135, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/resources.assets" }}
+,{ "pid":12345, "tid":5, "ts":1690062188801594, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/level0.resS" }}
+,{ "pid":12345, "tid":5, "ts":1690062188801652, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690062188801658, "dur":1253, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/level0.resS" }}
+,{ "pid":12345, "tid":5, "ts":1690062188802939, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/level0" }}
+,{ "pid":12345, "tid":5, "ts":1690062188802961, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690062188802970, "dur":1307, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/level0" }}
+,{ "pid":12345, "tid":5, "ts":1690062188804307, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1690062188804344, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690062188804352, "dur":8174, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1690062188812551, "dur":101967, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1690062188670277, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1690062188670278, "dur":3465, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1690062188673750, "dur":458, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/01/Fight_or_fright_The-game_0.1/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":6, "ts":1690062188674209, "dur":45, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1690062188674263, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1690062188696404, "dur":2765, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/01/Fight_or_fright_The-game_0.1/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":6, "ts":1690062188699236, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1690062188699269, "dur":23, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1690062188699337, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1690062188699343, "dur":2676, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1690062188702036, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1690062188702061, "dur":141, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1690062188702208, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1690062188702216, "dur":2918, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1690062188705155, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1690062188705182, "dur":31, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1690062188705218, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1690062188705230, "dur":3772, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1690062188709026, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1690062188709063, "dur":633, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1690062188709712, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1690062188709732, "dur":3032, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1690062188712788, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1690062188712805, "dur":110, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1690062188712921, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1690062188712926, "dur":1735, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1690062188714674, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1690062188714690, "dur":206, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1690062188714944, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1690062188714949, "dur":1531, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1690062188716498, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1690062188716512, "dur":22, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1690062188716568, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1690062188716574, "dur":2095, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1690062188718689, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1690062188718705, "dur":22, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1690062188718731, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1690062188718738, "dur":1816, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1690062188720580, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1690062188720599, "dur":23, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1690062188720626, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1690062188720634, "dur":2261, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1690062188722922, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1690062188722956, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1690062188723039, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1690062188723050, "dur":3593, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1690062188726659, "dur":186855, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":6, "ts":1690062188913516, "dur":47, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1690062188913568, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1690062188913574, "dur":900, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":6, "ts":1690062188914487, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":6, "ts":1690062188914488, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1690062188670450, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1690062188670450, "dur":3298, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1690062188673751, "dur":414, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/01/Fight_or_fright_The-game_0.1/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1690062188674165, "dur":23, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1690062188674191, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1690062188676478, "dur":1508, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/01/Fight_or_fright_The-game_0.1/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1690062188678049, "dur":120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/01/Fight_or_fright_The-game_0.1/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1690062188678169, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1690062188678199, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1690062188678206, "dur":1655, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/01/Fight_or_fright_The-game_0.1/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1690062188679924, "dur":114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/01/Fight_or_fright_The-game_0.1/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":7, "ts":1690062188680039, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1690062188680062, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1690062188680066, "dur":1934, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/01/Fight_or_fright_The-game_0.1/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":7, "ts":1690062188682051, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/01/Fight_or_fright_The-game_0.1/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":7, "ts":1690062188682155, "dur":20, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1690062188682178, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1690062188682182, "dur":4900, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/01/Fight_or_fright_The-game_0.1/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":7, "ts":1690062188687209, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1690062188687259, "dur":45, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1690062188687309, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1690062188687552, "dur":3322, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1690062188690927, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1690062188690994, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1690062188691049, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1690062188691072, "dur":2810, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1690062188693922, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1690062188693969, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1690062188694026, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1690062188694039, "dur":3503, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1690062188697568, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1690062188697606, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1690062188697640, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1690062188697651, "dur":2010, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1690062188699682, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1690062188699706, "dur":71, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1690062188699783, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1690062188699787, "dur":2855, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1690062188702662, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1690062188702696, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1690062188702723, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1690062188702728, "dur":2453, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1690062188705202, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1690062188705239, "dur":23, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1690062188705266, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1690062188705271, "dur":3716, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1690062188709009, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1690062188709050, "dur":634, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1690062188709707, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1690062188709730, "dur":2843, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1690062188712590, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1690062188712625, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1690062188712656, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1690062188712661, "dur":1659, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1690062188714342, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1690062188714361, "dur":25, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1690062188714390, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1690062188714399, "dur":2523, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1690062188716937, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1690062188716959, "dur":32, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1690062188716996, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1690062188717003, "dur":1868, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1690062188718886, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1690062188718898, "dur":41, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1690062188718943, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1690062188718947, "dur":2378, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1690062188721343, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1690062188721363, "dur":303, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1690062188721673, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1690062188721682, "dur":3451, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1690062188725151, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1690062188725170, "dur":31, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1690062188725204, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1690062188725211, "dur":9304, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1690062188734560, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":7, "ts":1690062188734580, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1690062188734612, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1690062188734622, "dur":12025, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":7, "ts":1690062188746663, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":7, "ts":1690062188746681, "dur":292, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1690062188746979, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1690062188746988, "dur":9791, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":7, "ts":1690062188756792, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":7, "ts":1690062188756805, "dur":1961, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1690062188758778, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1690062188758788, "dur":8508, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":7, "ts":1690062188767314, "dur":128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":7, "ts":1690062188767443, "dur":720, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1690062188768174, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1690062188768184, "dur":38128, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":7, "ts":1690062188806344, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":7, "ts":1690062188806384, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1690062188806397, "dur":10850, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":7, "ts":1690062188817270, "dur":97247, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1690062188670370, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1690062188670371, "dur":3385, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1690062188673758, "dur":815, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/01/Fight_or_fright_The-game_0.1/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1690062188674573, "dur":48, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1690062188674629, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1690062188723262, "dur":2380, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/01/Fight_or_fright_The-game_0.1/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1690062188725719, "dur":127727, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":8, "ts":1690062188853448, "dur":72, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1690062188853529, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1690062188853543, "dur":1601, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":8, "ts":1690062188855168, "dur":59358, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1690062188670436, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1690062188670437, "dur":3312, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1690062188673750, "dur":295, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/01/Fight_or_fright_The-game_0.1/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":9, "ts":1690062188674046, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1690062188674107, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1690062188676471, "dur":1404, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/01/Fight_or_fright_The-game_0.1/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":9, "ts":1690062188677940, "dur":156, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/01/Fight_or_fright_The-game_0.1/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":9, "ts":1690062188678096, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1690062188678168, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1690062188678194, "dur":1488, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/01/Fight_or_fright_The-game_0.1/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":9, "ts":1690062188679781, "dur":171, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/01/Fight_or_fright_The-game_0.1/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":9, "ts":1690062188679953, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1690062188679984, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1690062188680027, "dur":1965, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/01/Fight_or_fright_The-game_0.1/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":9, "ts":1690062188682048, "dur":110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/01/Fight_or_fright_The-game_0.1/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":9, "ts":1690062188682158, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1690062188682178, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1690062188682182, "dur":31288, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/01/Fight_or_fright_The-game_0.1/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":9, "ts":1690062188713584, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1690062188713608, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1690062188713639, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1690062188713644, "dur":2230, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1690062188715895, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1690062188715912, "dur":236, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1690062188716154, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1690062188716162, "dur":1411, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1690062188717594, "dur":144, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1690062188717738, "dur":25, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1690062188717768, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1690062188717774, "dur":1614, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1690062188719404, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1690062188719420, "dur":20, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1690062188719444, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1690062188719450, "dur":2638, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1690062188722113, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1690062188722133, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1690062188722165, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1690062188722172, "dur":3322, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1690062188725603, "dur":91440, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":9, "ts":1690062188817045, "dur":71, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1690062188817126, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1690062188817138, "dur":2562, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":9, "ts":1690062188819726, "dur":94786, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1690062188670494, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1690062188670495, "dur":3276, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1690062188673771, "dur":809, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/01/Fight_or_fright_The-game_0.1/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":10, "ts":1690062188674581, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1690062188674644, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1690062188723410, "dur":2603, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/01/Fight_or_fright_The-game_0.1/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":10, "ts":1690062188726090, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":10, "ts":1690062188726110, "dur":412, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1690062188726528, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1690062188726539, "dur":8762, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":10, "ts":1690062188735367, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":10, "ts":1690062188735414, "dur":481, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1690062188735901, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1690062188735914, "dur":7278, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":10, "ts":1690062188743214, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":10, "ts":1690062188743240, "dur":40, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1690062188745840, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1690062188745857, "dur":2544, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":10, "ts":1690062188748420, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":10, "ts":1690062188748457, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1690062188748489, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1690062188748495, "dur":3521, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":10, "ts":1690062188752105, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":10, "ts":1690062188752138, "dur":45, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1690062188752190, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1690062188752198, "dur":2625, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":10, "ts":1690062188754843, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":10, "ts":1690062188754861, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1690062188754896, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1690062188754903, "dur":11503, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":10, "ts":1690062188766426, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":10, "ts":1690062188766455, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1690062188766462, "dur":41610, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":10, "ts":1690062188808089, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":10, "ts":1690062188808111, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1690062188808122, "dur":2776, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":10, "ts":1690062188810917, "dur":124, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/boot.config" }}
+,{ "pid":12345, "tid":10, "ts":1690062188811042, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1690062188811076, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1690062188811086, "dur":2063, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/boot.config" }}
+,{ "pid":12345, "tid":10, "ts":1690062188813172, "dur":101343, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1690062188670584, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1690062188670584, "dur":3177, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1690062188673763, "dur":706, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/01/Fight_or_fright_The-game_0.1/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":11, "ts":1690062188674470, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1690062188674493, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1690062188722035, "dur":2684, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/01/Fight_or_fright_The-game_0.1/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":11, "ts":1690062188724799, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1690062188724831, "dur":212, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1690062188725053, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1690062188725098, "dur":4719, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1690062188729837, "dur":2605, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/Managed/Unity.Profiling.Core.dll" }}
+,{ "pid":12345, "tid":11, "ts":1690062188732443, "dur":1160, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1690062188733670, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1690062188733682, "dur":4134, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/Managed/Unity.Profiling.Core.dll" }}
+,{ "pid":12345, "tid":11, "ts":1690062188737841, "dur":737, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":11, "ts":1690062188738580, "dur":66, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1690062188738667, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1690062188738688, "dur":4618, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":11, "ts":1690062188743321, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":11, "ts":1690062188743334, "dur":2740, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1690062188746084, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1690062188746093, "dur":7209, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":11, "ts":1690062188753322, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":11, "ts":1690062188753343, "dur":28, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1690062188753376, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1690062188753382, "dur":4524, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":11, "ts":1690062188757928, "dur":66162, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":11, "ts":1690062188824092, "dur":164, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1690062188824279, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1690062188824293, "dur":2336, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":11, "ts":1690062188826647, "dur":87864, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1690062188670674, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1690062188670675, "dur":3100, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1690062188673776, "dur":562, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/01/Fight_or_fright_The-game_0.1/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":12, "ts":1690062188674338, "dur":117, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1690062188674464, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1690062188721499, "dur":2918, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/01/Fight_or_fright_The-game_0.1/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":12, "ts":1690062188724510, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1690062188724553, "dur":791, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1690062188725351, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1690062188725357, "dur":10374, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1690062188735752, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":12, "ts":1690062188735769, "dur":754, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1690062188736534, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1690062188736551, "dur":4793, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":12, "ts":1690062188741363, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":12, "ts":1690062188741385, "dur":1934, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1690062188743325, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1690062188743335, "dur":5849, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":12, "ts":1690062188749204, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":12, "ts":1690062188749227, "dur":23, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1690062188749283, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1690062188749292, "dur":4252, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":12, "ts":1690062188753558, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":12, "ts":1690062188753570, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1690062188753592, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1690062188753598, "dur":2865, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":12, "ts":1690062188756482, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":12, "ts":1690062188756500, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1690062188756531, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1690062188756538, "dur":8788, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":12, "ts":1690062188765346, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":12, "ts":1690062188765374, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1690062188765382, "dur":90635, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/01/Fight_or_fright_The-game_0.1/Fight or Fright_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":12, "ts":1690062188856039, "dur":58468, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690062188917701, "dur":1816, "ph":"X", "name": "ProfilerWriteOutput" }
+,
