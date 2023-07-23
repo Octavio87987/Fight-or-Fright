@@ -20,6 +20,7 @@ public class swapUI : MonoBehaviour
             animUI.SetInteger("Menu", 1);
 
             Spawner.SetActive(true);
+            Cannon.lose = false;
 
         }
         if (UI_Num == 2)
